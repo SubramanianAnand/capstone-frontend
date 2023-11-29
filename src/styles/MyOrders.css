@@ -1,0 +1,26 @@
+.my{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/wp9380336.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cardbody1 {
+    padding: 5px;
+   
+  }
+  
+  .cardtext1 {
+    padding: 10px;
+    color: white;
+  }
+
+
+

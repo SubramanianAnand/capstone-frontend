@@ -1,0 +1,75 @@
+.all {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://racers.tech/wp-content/uploads/2021/02/2019-motogp-red-bull-ring-spielbergmiguel-oliveira_88_rc16_red-bull-ktm-factory-racing_motogp_team-presentation_2021-22-.gallery_full_top_lg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  background: transparent;
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card1:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+.cardbody {
+  padding: 10px;
+}
+
+.cardtext {
+  padding: 10px;
+  color: white;
+}
+
+
+.book {
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  background-color: #F26E1F;
+  border: none;
+  color: #fff;
+}
+
+p{
+  
+}
+li{
+  float:left;
+  flex: 1 0 33.33%;
+}
+ul {
+  display: flex;   
+    width: 100%;     
+    flex-wrap: wrap; 
+  color: white;
+}
+ul li::marker {
+  
+  content: '✓';
+  color: green;
+}

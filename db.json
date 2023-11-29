@@ -1,0 +1,31 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "type": "Bike Care Service",
+      "name": "Complete Bike Service",
+      "price": "₹ 5000"
+    },
+    {
+      "id": 2,
+      "type": "Bike Cleaning Service",
+      "name": "Complete Cleaning Service",
+      "price": "₹ 2000"
+    },
+    {
+      "id": 3,
+      "type": "Bike Painting Service",
+      "name": "Changing Colour and Style",
+      "price": "₹ 3500"
+    }
+  ],
+  "myorders": [
+    {
+      "type": "Yamaha FZ",
+      "name": "TN 02 BT 3654",
+      "price": "₹ 5000",
+      "id": 1
+    }
+    
+  ]
+}
